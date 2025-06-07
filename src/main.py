@@ -12,7 +12,7 @@ from src.handlers import (
     router_finish,
     router_admin,
 )
-from .menu_commands import set_default_commands
+from menu_commands import set_default_commands
 
 from aiogram.fsm.storage.redis import RedisStorage
 from aiogram import Bot, Dispatcher
